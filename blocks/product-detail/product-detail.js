@@ -1,7 +1,3 @@
 export default async function decorate(block) {
-    const resp = await fetch(`/products.json`);
-    const json = await resp.json();
-    json.data.forEach((product) => {
-      console.log(product.Name);
-    });
+    console.log(block.innerHTML)
 }
