@@ -7,7 +7,7 @@ export default async function decorate(block) {
       const resp = await fetch(productsURL);
     const json = await resp.json();
     block.innerHTML = ''
-    selectedProduct = json.data.filter(product => product.id = id);
+    var selectedProduct = json.data.filter(product => product.id = id);
     if(selectedProduct) {
       block.innerHTML = selectedProduct[0].Name + "<br>" + selectedProduct[0].Description
     }
