@@ -8,8 +8,9 @@ export default async function decorate(block) {
       var productArea = document.createElement('div')
       block.append(productArea)
       productArea.setAttribute("class", "product")
-      var productName = document.createElement('div')
+      var productName = document.createElement('a')
       productName.setAttribute('class', 'product-name')
+      productName.setAttribute('href', '/product-detail?id='+product.id)
       productName.innerHTML = product.Name
       productArea.append(productName)
     });
