@@ -1,9 +1,9 @@
 # Your Project's Title...
-This project uses [google drive](https://drive.google.com/drive/folders/14ZbizIKD-2KR_V5DVt5BCCeLvCj-bHE7) to serve content
+This project uses [Google Drive](https://drive.google.com/drive/folders/14ZbizIKD-2KR_V5DVt5BCCeLvCj-bHE7) to serve content
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: https://main--edsdemo2--rickyaut.hlx.page/
+- Live: https://main--edsdemo2--rickyaut.hlx.live/
 
 ## Installation
 
