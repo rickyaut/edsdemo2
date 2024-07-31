@@ -24,3 +24,20 @@ npm run lint
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
+
+## Blocks
+### created from repository template
+1. cards
+2. columns
+3. footer
+4. fragment
+5. header
+6. hero
+### copied from [AEM block collection](https://github.com/adobe/aem-block-collection/tree/main/blocks)
+1. accordion
+2. carousel
+3. form
+4. tabs
+### customised
+1. product-detail
+2. product-list
